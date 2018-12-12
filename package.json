@@ -1,0 +1,18 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Classic data structures built in JS",
+  "main": "index.js",
+  "repository": "https://github.com/pdr0/data-structures.git",
+  "author": "pdr0 <yo@pedroselas.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
+  },
+  "scripts": {
+    "queues": "babel queues.js --out-dir bundle",
+    "priority-queues": "babel priorityQueue.js --out-dir bundle"
+  }
+}
