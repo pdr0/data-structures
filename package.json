@@ -13,6 +13,7 @@
   },
   "scripts": {
     "queues": "babel queues.js --out-dir bundle",
-    "priority-queues": "babel priorityQueue.js --out-dir bundle"
+    "priority-queues": "babel priorityQueue.js --out-dir bundle",
+    "stack-data": "babel stackData.js --out-dir bundle"
   }
 }
